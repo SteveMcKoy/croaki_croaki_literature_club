@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Croaki Croaki Literature Club")
+define config.name = ("Croaki Croaki Literature Club")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,13 +23,21 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = ""
+define config.version = "By Steve Mckoy II (Period 3)"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
+define gui.about = _p("""Sources:
+
+National Geographic. (n.d.) Axolotl. Retrived April 28, 2020 from https://www.nationalgeographic.com/animals/amphibians/a/axolotl/
+
+Zug, G., Duellman. (n.d.) Amphibian. Retrived April 27, 2020, from https://www.britannica.com/animal/amphibian
+
+All music was made by Team Salvato
+
+Toad sound effects were made by Nintendo
 """)
 
 
@@ -37,8 +45,8 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "amphibian_dating_sim"
-
+define build.name = "croaki_croaki_literature_club"
+define build.directory_name = "amphibian_dating_simulator"
 
 ## Sounds and music ############################################################
 
